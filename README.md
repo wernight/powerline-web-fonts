@@ -8,4 +8,4 @@ For [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhech
 
   - Options:
       - font-family: `Source Code Pro for Powerline`
-      - user-css: TODO
+      - user-css: `https://rawgit.com/wernight/powerline-web-fonts/master/SourceCodePro.css`
