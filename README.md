@@ -2,6 +2,8 @@
 
 Powerline Web Fonts for Chromebook
 
+# WORK IN PROGRESS (NOT YET WORKING)
+
 ## Usage
 
 For [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo):
