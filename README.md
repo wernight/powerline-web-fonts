@@ -7,5 +7,5 @@ Powerline Web Fonts for Chromebook
 For [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo):
 
   - Options:
-      - font-family: `Source Code Pro for Powerline`
+      - font-family: `"Source Code Pro for Powerline", monospace`
       - user-css: `https://rawgit.com/wernight/powerline-web-fonts/master/SourceCodePro.css`
