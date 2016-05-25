@@ -8,7 +8,7 @@ There are other fonts as well for you to choose from:
   * `Inconsolata` - Inconsolata for Powerline
   * `Liberation Mono` - Literation Mono Powerline
   * `PT Mono` - PT Mono for Powerline
-  * `Source Code Pro` - Source Code for Powerline
+  * `Source Code Pro` or `Source Code Pro for Powerline` - Source Code for Powerline
   * `Ubuntu Mono` - Ubuntu Mono derivative Powerline
 
 See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
