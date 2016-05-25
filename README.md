@@ -4,15 +4,15 @@
 working also on Chromebook (or pretty much anything running Chrome).
    
 There are other fonts as well for you to choose from:
+  * `Anonymous Pro` - Anonymice Powerline
+  * `Inconsolata` - Inconsolata for Powerline
+  * `Liberation Mono` - Literation Mono Powerline
+  * `PT Mono` - PT Mono for Powerline
+  * `Source Code Pro` - Source Code for Powerline
+  * `Ubuntu Mono` - Ubuntu Mono derivative Powerline
 
-  * Anonymice Powerline
-  * Inconsolata for Powerline
-  * Literation Mono Powerline
-  * PT Mono for Powerline
-  * Sauce Code Powerline Regular
-  * Sauce Code Powerline Regular
-  * Ubuntu Mono derivative Powerline
-  
+See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
+
 ## Usage example for [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo)
 
   - Options:
