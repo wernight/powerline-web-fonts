@@ -4,12 +4,16 @@
 working also on Chromebook (or pretty much anything running Chrome).
    
 There are other fonts as well for you to choose from:
-  * `Anonymous Pro` - Anonymice Powerline
-  * `Inconsolata` - Inconsolata for Powerline
-  * `Liberation Mono` - Literation Mono Powerline
+  * `Anonymous Pro` - [Anonymice
+    Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
+  * `Inconsolata` - [Inconsolata for
+    Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata)
+  * `Liberation Mono` - [Literation Mono
+    Powerline](https://github.com/powerline/fonts/tree/master/LiberationMono)
   * `PT Mono` - PT Mono for Powerline
-  * `Source Code Pro` or `Source Code Pro for Powerline` - Source Code for Powerline
-  * `Ubuntu Mono` - Ubuntu Mono derivative Powerline
+  * `Source Code Pro` or `Source Code Pro for Powerline` - [Source Code for Powerline](https://github.com/powerline/fonts/tree/master/SourceCodePro)
+  * `Ubuntu Mono` - [Ubuntu Mono derivative
+    Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
 
 See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
@@ -31,3 +35,24 @@ term_.prefs_.set('user-css', 'https://rawgit.com/wernight/powerline-web-fonts/ma
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
 or if you're pretty much on any other OS, you can install those fonts locally or copy them locally
 and it'll work with little to not effort.
+
+## Suggesting a new font
+
+To add a new font, you can submit a GitHub pull request. Your PR should:
+
+  - Include a new font file in [WOFF2
+    format](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a).
+  - Add your font to `PowerlineFonts.css`, `test/test.html`, and `README.md` (might use [Transfonter](http://transfonter.org/) to
+    help with the CSS).
+
+### Converting TTF to WOFF2
+
+There are various methods, including:
+
+  * [Webfont Generator | Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
+  * [ttf2woff2 | Everything Fonts](https://everythingfonts.com/ttf-to-woff2)
+  * Using [FontForge](https://fontforge.github.io/en-US/):
+
+        #!/usr/bin/env fontforge
+        Open($1)
+        Generate($1:r + ".woff2")`
