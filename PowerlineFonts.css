@@ -45,17 +45,31 @@
 
 @font-face {
     font-family: "Source Code Pro";
-    font-style: normal;
-    font-weight: 400;
     src: local("Sauce Code Powerline Regular"),
          url(fonts/SourceCodePro.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Code Pro";
+    src: local("Sauce Code Powerline Regular"),
+         url(fonts/SourceCodePro-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
 }
 @font-face {
     font-family: "Source Code Pro for Powerline";
-    font-style: normal;
-    font-weight: 400;
     src: local("Sauce Code Powerline Regular"),
          url(fonts/SourceCodePro.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Code Pro for Powerline";
+    src: local("Sauce Code Powerline Regular"),
+         url(fonts/SourceCodePro-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
