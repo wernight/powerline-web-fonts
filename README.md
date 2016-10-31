@@ -6,6 +6,8 @@ working also on Chromebook (or pretty much anything running Chrome).
 There are other fonts as well for you to choose from:
   * `Anonymous Pro` - [Anonymice
     Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
+  * `DejaVu Sans Mono` -
+    [DejaVu Sans Mono for Powerline](https://github.com/powerline/fonts/tree/master/DejaVuSansMono)
   * `Inconsolata` - [Inconsolata for
     Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata)
   * `Inconsolata-g` - [Inconsolata-g for
@@ -17,7 +19,8 @@ There are other fonts as well for you to choose from:
   * `Ubuntu Mono` - [Ubuntu Mono derivative
     Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
 
-See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
+See [preview in test/index.html](https://rawgit.com/wernight/powerline-web-fonts/master/test/index.html)
+and [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
 ## Usage example for [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo)
 
@@ -44,7 +47,7 @@ To add a new font, you can submit a GitHub pull request. Your PR should:
 
   - Include a new font file in [WOFF2
     format](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a).
-  - Add your font to `PowerlineFonts.css`, [`test/test.html`](https://rawgit.com/wernight/powerline-web-fonts/master/test/index.html), and `README.md` (might use [Transfonter](http://transfonter.org/) to help with the CSS).
+  - Add your font to `PowerlineFonts.css`, `test/test.html` and `README.md` (might use [Transfonter](http://transfonter.org/) to help with the CSS).
 
 ### Converting to WOFF2
 

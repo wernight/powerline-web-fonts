@@ -3,26 +3,46 @@
     src: local("Anonymice Powerline"),
          url(fonts/AnonymousPro.woff2) format("woff2");
 }
+
+@font-face {
+    font-family: "DejaVu Sans Mono";
+    src: local("DejaVu Sans Mono for Powerline"),
+         url(fonts/DejaVuSansMono.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "DejaVu Sans Mono";
+    src: local("DejaVu Sans Mono for Powerline"),
+         url(fonts/DejaVuSansMono-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
 @font-face {
     font-family: "Inconsolata";
     src: local("Inconsolata for Powerline"),
          url(fonts/Inconsolata.woff2) format("woff2");
 }
+
 @font-face {
     font-family: "Inconsolata-g";
     src: local("Inconsolata-g for Powerline"),
          url(font/Inconsolata-g.woff2') format('woff2');
 }
+
 @font-face {
     font-family: "Liberation Mono";
     src: local("Literation Mono Powerline"),
          url(fonts/LiberationMono.woff2) format("woff2");
 }
+
 @font-face {
     font-family: "PT Mono";
     src: local("PT Mono for Powerline"),
          url(fonts/PTMono.woff2) format("woff2");
 }
+
 @font-face {
     font-family: "Source Code Pro";
     font-style: normal;
@@ -37,6 +57,7 @@
     src: local("Sauce Code Powerline Regular"),
          url(fonts/SourceCodePro.woff2) format("woff2");
 }
+
 @font-face {
     font-family: "Ubuntu Mono";
     src: local("Ubuntu Mono derivative Powerline"),
