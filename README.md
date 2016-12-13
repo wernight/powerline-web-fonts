@@ -42,6 +42,8 @@ If you have [Crouton](https://github.com/dnschneid/crouton) installed on a devel
 or if you're pretty much on any other OS, you can install those fonts locally or copy them locally
 and it'll work with little to not effort.
 
+Note that the RawGit links require a specific commit id, because files are cached permanently. Please update your projects to use the `CDN` links, as overusage of the development URLs (those without `cdn.`), could result in this repo being blacklisted from RawGit.
+
 ## Suggesting a new font
 
 To add a new font, you can submit a GitHub pull request. Your PR should:
