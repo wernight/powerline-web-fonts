@@ -8,6 +8,7 @@ There multiple `font-family` to choose from (all Powerline-enabled):
     Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
   * `DejaVu Sans Mono` -
     [DejaVu Sans Mono for Powerline](https://github.com/powerline/fonts/tree/master/DejaVuSansMono)
+  * `Hack` - [Hack Webfont](https://github.com/chrissimpkins/Hack)
   * `Inconsolata` - [Inconsolata for
     Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata)
   * `Inconsolata-g` - [Inconsolata-g for
