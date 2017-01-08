@@ -20,6 +20,12 @@
 }
 
 @font-face {
+    font-family: "Hack";
+    src: local("Hack"),
+         url(fonts/Hack.woff2) format("woff2");
+}
+
+@font-face {
     font-family: "Inconsolata";
     src: local("Inconsolata for Powerline"),
          url(fonts/Inconsolata.woff2) format("woff2");
