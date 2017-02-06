@@ -2,7 +2,7 @@
 
 [**Powerline** Web Fonts](https://github.com/powerline/fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
 
-There multiple `font-family` to choose from (all Powerline-enabled):
+There are multiple `font-family` to choose from (all Powerline-enabled):
 
   * `Anonymous Pro` - [Anonymice
     Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
@@ -40,8 +40,8 @@ term_.prefs_.set('user-css', 'https://cdn.rawgit.com/wernight/powerline-web-font
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
-or if you're pretty much on any other OS, you can install those fonts locally or copy them locally
-and it'll work with little to not effort.
+or if you're on pretty much any other OS, you can install those fonts locally or copy them locally
+and it'll work with little to no effort.
 
 Note that the RawGit links require a specific commit SHA-1 because files are cached permanently. Please update your projects to use the `CDN` links, as [overusage of the development URLs (those without `cdn.`), could result in this repo being blacklisted from RawGit](https://github.com/rgrove/rawgit/wiki/Frequently-Asked-Questions).
 
