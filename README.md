@@ -13,6 +13,7 @@ There are multiple `font-family` to choose from (all Powerline-enabled):
     Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata)
   * `Inconsolata-g` - [Inconsolata-g for
     Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata-g)
+  * `Iosevka` - [Iosevka Webfont](https://github.com/be5invis/Iosevka)
   * `Liberation Mono` - [Literation Mono
     Powerline](https://github.com/powerline/fonts/tree/master/LiberationMono)
   * `PT Mono` - PT Mono for Powerline
