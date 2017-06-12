@@ -13,6 +13,7 @@ There are multiple `font-family` to choose from (all Powerline-enabled):
     Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata)
   * `Inconsolata-g` - [Inconsolata-g for
     Powerline](https://github.com/powerline/fonts/tree/master/Inconsolata-g)
+  * `Iosevka` - [Iosevka Webfont](https://github.com/be5invis/Iosevka)
   * `Liberation Mono` - [Literation Mono
     Powerline](https://github.com/powerline/fonts/tree/master/LiberationMono)
   * `PT Mono` - PT Mono for Powerline
@@ -28,7 +29,7 @@ See [preview.html](https://rawgit.com/wernight/powerline-web-fonts/master/previe
 
   - Options:
       - font-family: `"Source Code Pro", monospace`
-      - user-css: `https://cdn.rawgit.com/wernight/powerline-web-fonts/8040cf32c146c7cd4f776c1484d23dc40685c1bc/PowerlineFonts.css`
+      - user-css: `https://cdn.rawgit.com/wernight/powerline-web-fonts/4c2fbd9a52a443fbdf00c9eb79e615f1bed3a55c/PowerlineFonts.css`
 
 ### Usage example for [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh)
 

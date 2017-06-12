@@ -38,6 +38,12 @@
 }
 
 @font-face {
+    font-family: "Iosevka";
+    src: local("Iosevka"),
+         url(fonts/iosevka-term-medium.woff2) format('woff2');
+}
+
+@font-face {
     font-family: "Liberation Mono";
     src: local("Literation Mono Powerline"),
          url(fonts/LiberationMono.woff2) format("woff2");
