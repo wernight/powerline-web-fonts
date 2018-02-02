@@ -5,6 +5,21 @@
 }
 
 @font-face {
+    font-family: "Cousine Powerline";
+    src: local("Cousine Powerline"),
+         url(fonts/Cousine.woff2) format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cousine Powerline";
+    src: local("Cousine Powerline"),
+         url(fonts/Cousine-Bold.woff2) format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: "DejaVu Sans Mono";
     src: local("DejaVu Sans Mono for Powerline"),
          url(fonts/DejaVuSansMono.woff2) format("woff2");
