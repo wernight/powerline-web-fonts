@@ -1,0 +1,98 @@
+// Variables
+$gutter:             16vw  !default;
+
+// Style rules
+body                {
+                      font-family: "Space Mono", monospace;
+                      font-size: 1.2rem;
+                      line-height: 32px;
+                      background-color: rgb(48,0,24);
+                      color: rgb(247,253,250);
+                    }
+
+h1,
+h3                  {
+                      font-size: 6rem;
+                      line-height: 61px;
+                      text-rendering: optimizeLegibility;
+                    }
+
+h3                  {
+                      font-size: 2rem;
+                      line-height: 32px;
+                    }
+
+hr                  {
+                      border: 1px solid rgb(247,253,250);
+                      margin: 0 $gutter;
+
+                      + pre code {
+                        font-size: 0.75rem;
+                      }
+
+                    }
+
+section             {
+                      height: 100vh;
+                      margin: 0 $gutter;
+
+                      + section {
+                        margin-top: 52px;
+                      }
+
+                    }
+
+// Typefaces
+#AnonymousPro code,
+#AnonymousPro       {
+                      font-family: 'Anonymous Pro', monospace;
+                    }
+#Cousine code,
+#Cousine            {
+                      font-family: 'Cousine Powerline', monospace;
+                    }
+
+#DejaVuSansMono code,
+#DejaVuSansMono     {
+                      font-family: 'DejaVu Sans Mono', monospace;
+                    }
+
+#Hack code,
+#Hack               {
+                      font-family: 'Hack', monospace;
+                    }
+
+#Inconsolata code,
+#Inconsolata        {
+                      font-family: 'Inconsolata', monospace;
+                    }
+
+#InconsolataG code,
+#InconsolataG       {
+                      font-family: 'Inconsolata-g', monospace;
+                    }
+
+#Iosevka code,
+#Iosevka            {
+                      font-family: 'Iosevka', monospace;
+                    }
+
+#LiberationMono code,
+#LiberationMono     {
+                      font-family: 'Liberation Mono', monospace;
+                    }
+
+#PTMono code,
+#PTMono             {
+                      font-family: 'PT Mono', monospace;
+                    }
+
+#SourceCodePro code,
+#SourceCodePro      {
+                      font-family: 'Source Code Pro', monospace;
+                    }
+
+#UbuntuMono code,
+#UbuntuMono         {
+                      font-family: 'Ubuntu Mono', monospace;
+                    }
