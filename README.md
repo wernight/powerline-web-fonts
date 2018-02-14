@@ -38,7 +38,7 @@ See [preview.html](https://rawgit.com/wernight/powerline-web-fonts/master/previe
 
 ```js
 term_.prefs_.set('font-family', '"Source Code Pro", monospace');
-term_.prefs_.set('user-css', 'https://cdn.rawgit.com/wernight/powerline-web-fonts/8040cf32c146c7cd4f776c1484d23dc40685c1bc/PowerlineFonts.css');
+term_.prefs_.set('user-css', 'https://cdn.rawgit.com/wernight/powerline-web-fonts/4c2fbd9a52a443fbdf00c9eb79e615f1bed3a55c/PowerlineFonts.css');
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
@@ -53,6 +53,7 @@ To add a new font, you can submit a GitHub pull request through a forked reposit
 
   - Include a new font file in [WOFF2 format](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a).
   - Add your font to `PowerlineFonts.css`, `preview.html` and `README.md` (might use [Transfonter](http://transfonter.org/) to help with the CSS).
+  - Once merged, send another pull request, I might forget, that updates all `https://cdn.rawgit.com/` in this README to the [latest commit SHA-1](https://github.com/wernight/powerline-web-fonts/commits/master). You can do that in the original Pull Request if it gets rebased (merge and sqashes would not work in that case).
 
 ### Converting to WOFF2
 
