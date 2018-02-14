@@ -27,8 +27,8 @@ See [preview.html](https://rawgit.com/wernight/powerline-web-fonts/master/previe
 
 ### Usage example for [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo)
 
-  - Launch *Secure Shell* and click on **Options**,
-    or go to `chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh_preferences_editor.html`:
+  - Launch *Secure Shell* and click on **Options**
+    (or go to `chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh_preferences_editor.html`):
       - Set **font-family**: `"Source Code Pro", monospace`
       - Set **user-css**: `https://cdn.rawgit.com/wernight/powerline-web-fonts/4c2fbd9a52a443fbdf00c9eb79e615f1bed3a55c/PowerlineFonts.css`
 
