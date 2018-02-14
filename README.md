@@ -2,7 +2,7 @@
 
 [**Powerline** Web Fonts](https://github.com/powerline/fonts) working in [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo) and working also on **Chromebook** (or pretty much anything running Chrome).
 
-There are multiple `font-family` to choose from (all Powerline-enabled):
+There are several `font-family` you can choose from (all Powerline-enabled):
 
   * `Anonymous Pro` - [Anonymice
     Powerline](https://github.com/powerline/fonts/tree/master/AnonymousPro)
@@ -27,9 +27,10 @@ See [preview.html](https://rawgit.com/wernight/powerline-web-fonts/master/previe
 
 ### Usage example for [Secure Shell](https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo)
 
-  - Options:
-      - font-family: `"Source Code Pro", monospace`
-      - user-css: `https://cdn.rawgit.com/wernight/powerline-web-fonts/4c2fbd9a52a443fbdf00c9eb79e615f1bed3a55c/PowerlineFonts.css`
+  - Launch *Secure Shell* and click on **Options**,
+    or go to `chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh_preferences_editor.html`:
+      - Set **font-family**: `"Source Code Pro", monospace`
+      - Set **user-css**: `https://cdn.rawgit.com/wernight/powerline-web-fonts/4c2fbd9a52a443fbdf00c9eb79e615f1bed3a55c/PowerlineFonts.css`
 
 ### Usage example for [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh)
 
@@ -48,10 +49,9 @@ Note that the RawGit links require a specific commit SHA-1 because files are cac
 
 ## Suggesting a new font
 
-To add a new font, you can submit a GitHub pull request. Your PR should:
+To add a new font, you can submit a GitHub pull request through a forked repository. Your pull request should:
 
-  - Include a new font file in [WOFF2
-    format](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a).
+  - Include a new font file in [WOFF2 format](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a).
   - Add your font to `PowerlineFonts.css`, `preview.html` and `README.md` (might use [Transfonter](http://transfonter.org/) to help with the CSS).
 
 ### Converting to WOFF2
@@ -62,7 +62,9 @@ There are various methods, including:
   * [ttf to woff2 | Everything Fonts](https://everythingfonts.com/ttf-to-woff2)
   * [Webfont Generator | Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
   * Using [FontForge](https://fontforge.github.io/en-US/):
-
-        #!/usr/bin/env fontforge
-        Open($1)
-        Generate($1:r + ".woff2")`
+        
+    ```bash
+    #!/usr/bin/env fontforge
+    Open($1)
+    Generate($1:r + ".woff2")`
+    ```
