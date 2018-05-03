@@ -16,6 +16,8 @@ There are several `font-family` you can choose from (all Powerline-enabled):
   * `Iosevka` - [Iosevka Webfont](https://github.com/be5invis/Iosevka)
   * `Liberation Mono` - [Literation Mono
     Powerline](https://github.com/powerline/fonts/tree/master/LiberationMono)
+  * `Monofur` - [monofur for
+    Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
   * `PT Mono` - PT Mono for Powerline
   * `Source Code Pro` - [Source Code for Powerline](https://github.com/powerline/fonts/tree/master/SourceCodePro)
   * `Ubuntu Mono` - [Ubuntu Mono derivative
