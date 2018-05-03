@@ -77,3 +77,27 @@
     src: local("Ubuntu Mono derivative Powerline"),
          url(fonts/UbuntuMono.woff2) format("woff2");
 }
+
+@font-face {
+    font-family: 'monofur for Powerline';
+    src: local('MonofurForPowerline.woff2'),
+         url(fonts/monofur/Monofur.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monofur for Powerline';
+    src: local('MonofurForPowerline.woff2'),
+         url(fonts/monofur/Monofur-Bold.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'monofur for Powerline';
+    src: local('MonofurForPowerline.woff2'),
+         url(fonts/monofur/Monofur-Italic.woff2) format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
