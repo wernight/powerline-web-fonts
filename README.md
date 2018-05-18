@@ -22,6 +22,8 @@ There are several `font-family` you can choose from (all Powerline-enabled):
   * `Source Code Pro` - [Source Code for Powerline](https://github.com/powerline/fonts/tree/master/SourceCodePro)
   * `Ubuntu Mono` - [Ubuntu Mono derivative
     Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
+  * `Monofur` - [Monofur for Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
+    
 
 See [preview.html](https://rawgit.com/wernight/powerline-web-fonts/master/preview.html) and [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
