@@ -34,7 +34,7 @@ See [preview.html](https://rawgit.com/wernight/powerline-web-fonts/master/previe
   - Launch *Secure Shell* and click on **Options**
     (or go to `chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh_preferences_editor.html`):
       - Set **font-family**: `"Source Code Pro", monospace`
-      - Set **user-css**: `https://cdn.rawgit.com/wernight/powerline-web-fonts/e4d967ca4f95d9fa0cf1d51afed2e5a5927d759e/PowerlineFonts.css`
+      - Set **user-css**: `https://cdn.rawgit.com/wernight/powerline-web-fonts/ba4426cb0c0b05eb6cb342c7719776a41e1f2114/PowerlineFonts.css`
 
 ### Usage example for [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh)
 
@@ -42,7 +42,7 @@ See [preview.html](https://rawgit.com/wernight/powerline-web-fonts/master/previe
 
 ```js
 term_.prefs_.set('font-family', '"Source Code Pro", monospace');
-term_.prefs_.set('user-css', 'https://cdn.rawgit.com/wernight/powerline-web-fonts/e4d967ca4f95d9fa0cf1d51afed2e5a5927d759e/PowerlineFonts.css');
+term_.prefs_.set('user-css', 'https://cdn.rawgit.com/wernight/powerline-web-fonts/ba4426cb0c0b05eb6cb342c7719776a41e1f2114/PowerlineFonts.css');
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
