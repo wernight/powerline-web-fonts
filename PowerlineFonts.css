@@ -101,3 +101,11 @@
     font-weight: normal;
     font-style: italic;
 }
+
+@font-face {
+    font-family: 'Noto Mono for Powerline';
+    src: local('NotoMonoForPowerline.woff2'),
+         url(fonts/NotoMonoForPowerline.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}

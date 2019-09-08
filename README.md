@@ -23,7 +23,7 @@ There are several `font-family` you can choose from (all Powerline-enabled):
   * `Ubuntu Mono` - [Ubuntu Mono derivative
     Powerline](https://github.com/powerline/fonts/tree/master/UbuntuMono)
   * `Monofur` - [Monofur for Powerline](https://github.com/powerline/fonts/tree/master/Monofur)
-    
+  *_`Noto Mono for Powerline` - [Noto Mono for Powerline](https://github.com/powerline/fonts/tree/master/NotoMono)    
 
 See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know which to choose.
 
@@ -34,7 +34,7 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
   - Launch *Secure Shell* and click on **Options**
     (or go to `chrome-extension://pnhechapfaindjhompbnflcldabbghjo/html/nassh_preferences_editor.html`):
       - Set **font-family**: `"Source Code Pro", monospace`
-      - Set **user-css**: `https://cdn.jsdelivr.net/gh/wernight/powerline-web-fonts@ba4426cb0c0b05eb6cb342c7719776a41e1f2114/PowerlineFonts.css`
+      - Set **user-css**: `https://cdn.jsdelivr.net/gh/grobbie/powerline-web-fonts@dff7dc47388b8e4b2fa66d41cc47658e18ee27e0/PowerlineFonts.css`
 
 ### Usage example for [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh)
 
@@ -42,7 +42,7 @@ See [Slant](http://www.slant.co/topics/67/~programming-fonts) if you don't know 
 
 ```js
 term_.prefs_.set('font-family', '"Source Code Pro", monospace');
-term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/wernight/powerline-web-fonts@ba4426cb0c0b05eb6cb342c7719776a41e1f2114/PowerlineFonts.css');
+term_.prefs_.set('user-css', 'https://cdn.jsdelivr.net/gh/grobbie/powerline-web-fonts@dff7dc47388b8e4b2fa66d41cc47658e18ee27e0/PowerlineFonts.css');
 ```
 
 If you have [Crouton](https://github.com/dnschneid/crouton) installed on a developer mode Chromebook,
@@ -55,7 +55,7 @@ To add a new font, you can submit a GitHub pull request through a forked reposit
 
   - Include a new font file in [WOFF2 format](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a).
   - Add your font to `PowerlineFonts.css`, `preview.html` and `README.md` (might use [Transfonter](http://transfonter.org/) to help with the CSS).
-  - Once merged, send another pull request, I might forget, that updates all `https://cdn.rawgit.com/` in this README to the [latest commit SHA-1](https://github.com/wernight/powerline-web-fonts/commits/master). You can do that in the original Pull Request if it gets rebased (merge and sqashes would not work in that case).
+  - Once merged, send another pull request, I might forget, that updates all `https://cdn.rawgit.com/` in this README to the [latest commit SHA-1](https://github.com/grobbie/powerline-web-fonts/commits/master). You can do that in the original Pull Request if it gets rebased (merge and sqashes would not work in that case).
 
 ### Converting to WOFF2
 
